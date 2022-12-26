@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.nav-items{
+    margin: 2%;
+    list-style: none;
+    font-size: 1.5em;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+#fun{
+    font-size: 1.2em;
+    margin: 5%;
+    width: 20%;
+    height: 7rem;
+    cursor: pointer;
+}
+
+#result{
+    font-size: 1.2em;
+}
